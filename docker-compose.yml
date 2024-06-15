@@ -1,14 +1,78 @@
 
+
+# version: '3'
+# services:
+#   nats-server:
+#     image: nats:latest
+#     ports:
+#       - 4222:4222
+#       - 8222:8222
+#       - 6222:6222
+#     networks:
+#       - backend-network
+
+#   db:
+#     container_name: db
+#     image: postgres:16.3-alpine3.20
+#     restart: always
+#     volumes:
+#       - ./database/postgres:/var/lib/postgresql/data
+#     ports:
+#       - ${DB_PORT}:5432
+#     environment:
+#       - POSTGRES_PASSWORD=${DB_PASSWORD}
+#       - POSTGRES_DB=${DB_NAME}
+#       - POSTGRES_USER=${DB_USERNAME}
+#     networks:
+#       - backend-network
+
+#   client-gateway:
+#     build: ./client-gateway
+#     ports:
+#       - ${PORT_CLIENT_GATEWAY}:3000
+#     volumes:
+#       - ./client-gateway/src:/usr/src/app/src
+#     # command: yarn dev
+#     environment:
+#       - PORT=3000
+#       - NODE_ENV=${NODE_ENV}
+#       - NATS_SERVERS=nats://nats-server:4222
+#     networks:
+#       - backend-network
+
+#   auth-ms:
+#     build: ./auth-ms
+#     depends_on:
+#       - nats-server
+#       - db
+#       - client-gateway
+#     volumes:
+#       - ./auth-ms/src:/usr/src/app/src
+#     # command: yarn dev
+#     environment:
+#       - PORT=3001
+#       - NODE_ENV=${NODE_ENV}
+#       - NATS_SERVERS=nats://nats-server:4222
+#       - DB_URL=${DB_URL}
+#       - JWT_SECRET=${JWT_SECRET}
+#     networks:
+#       - backend-network
+
+# networks:
+#   backend-network:
+#     driver: bridge
+
+
 version: '3'
-
 services:
-
   nats-server:
     image: nats:latest
     ports:
       - 4222:4222
       - 8222:8222
       - 6222:6222
+    networks:
+      - backend-network
 
   db:
     container_name: db
@@ -22,31 +86,42 @@ services:
       - POSTGRES_PASSWORD=${DB_PASSWORD}
       - POSTGRES_DB=${DB_NAME}
       - POSTGRES_USER=${DB_USERNAME}
+    networks:
+      - backend-network
 
-  # client-gateway:
-  #   build: ./client-gateway
-  #   ports:
-  #     - ${PORT_CLIENT_GATEWAY}:3000
-  #   volumes:
-  #     - ./client-gateway/src:/usr/src/app/src
-  #   command: yarn dev
-  #   environment:
-  #     - PORT=3000
-  #     - NODE_ENV=${NODE_ENV}
-  #     - NATS_SERVERS=nats://nats-server:4222
+  client-gateway:
+    build: ./client-gateway
+    ports:
+      - ${PORT_CLIENT_GATEWAY}:3000
+    volumes:
+      - ./client-gateway/src:/usr/src/app/src
+    environment:
+      - PORT=3000
+      - NODE_ENV=${NODE_ENV}
+      - NATS_SERVERS=nats://nats-server:4222
+    networks:
+      - backend-network
 
-  # auth-ms:
-  #   build: ./auth-ms
-  #   depends_on:
-  #     - nats-server
-  #     - db
-  #     - client-gateway
-  #   volumes:
-  #     - ./auth-ms/src:/usr/src/app/src
-  #   command: yarn dev
-  #   environment:
-  #     - PORT=3001
-  #     - NODE_ENV=${NODE_ENV}
-  #     - NATS_SERVERS=nats://nats-server:4222
-  #     - DB_URL=${DB_URL}
-  #     - JWT_SECRET=${JWT_SECRET}
+  auth-ms:
+    build:
+      context: ./auth-ms
+      args:
+        - DB_URL=${DB_URL}
+    depends_on:
+      - nats-server
+      - db
+      - client-gateway
+    volumes:
+      - ./auth-ms/src:/usr/src/app/src
+    environment:
+      - PORT=3001
+      - NODE_ENV=${NODE_ENV}
+      - NATS_SERVERS=nats://nats-server:4222
+      - DB_URL=${DB_URL}
+      - JWT_SECRET=${JWT_SECRET}
+    networks:
+      - backend-network
+
+networks:
+  backend-network:
+    driver: bridge
