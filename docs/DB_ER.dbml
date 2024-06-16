@@ -1,0 +1,132 @@
+Table Auth {
+  _id varchar [pk]
+  email varchar
+  password varchar
+  username varchar
+  created_at timestamp
+  updated_at timestamp
+  last_session timestamp
+  status AuthStatus_Enum
+
+  user varchar
+}
+
+Enum AuthStatus_Enum {
+  VERIFIED
+  BLOCKED
+  DELETED
+  SUSPENDED
+  PENDING
+  ACTIVE
+  INACTIVE
+}
+
+ Table User {
+  _id varchar [pk]
+  name varchar
+  last_name varchar
+  gender varchar
+  phone varchar
+  address varchar
+  city varchar
+  state varchar
+  auth varchar
+  profile varchar
+  hiring_data varchar
+  updated_at timestamp
+
+}
+
+
+Table Profile {
+  _id varchar [pk]
+  artistic_name varchar
+  bio_short varchar
+  profile_pic varchar
+  cover_pic varchar
+  identity_file varchar
+  profesional_file varchar
+  image_gallery varchar
+  video_gallery varchar
+  facebook varchar
+  twitter varchar
+  instagram varchar
+  youtube varchar
+  tiktok varchar
+  updated_at timestamp
+
+}
+
+  Table User_HiringData {
+  _id varchar [pk]
+  personal_address varchar
+  personal_city varchar
+  personal_phone varchar
+  personal_postal_code varchar
+  personal_rif varchar
+  personal_social_reason varchar
+  personal_state varchar
+  payment_account varchar
+    created_at timestamp
+  updated_at timestamp
+
+
+}
+
+Enum Banks_Enum {
+  BC_BICENTENARIO
+  BC_BANESCO
+  BC_TESORO
+  BC_PROVINCIAL
+  BC_MERCANTIL
+  BC_VENEZUELA
+}
+
+Enum Payment_Type_Enum {
+  BANK_ACCOUNT
+  MOBILE_PAYMENT
+}
+
+Table Payment_Account {
+  _id varchar [pk]
+  type Payment_Type_Enum
+  bank_name Banks_Enum
+  number varchar
+  titular varchar
+  person_id varchar
+  phone varchar
+created_at timestamp
+  updated_at timestamp
+}
+
+Table Files {
+    _id varchar [pk]
+    name varchar
+    type varchar
+    file varchar
+    format varchar
+    folder varchar
+    src varchar
+    created_at timestamp
+}
+
+Ref: "Auth"."user" - "User"."auth"
+Ref: "Profile"."_id" - "User"."profile"
+ref: "User"."hiring_data" - "User_HiringData"."_id"
+ref: "User_HiringData"."payment_account" < "Payment_Account"."_id"
+
+// Files refs
+ref: "Profile"."bio_short" - "Files"."_id"
+ref: "Profile"."profile_pic" - "Files"."_id"
+ref: "Profile"."cover_pic" - "Files"."_id"
+ref: "Profile"."identity_file" - "Files"."_id"
+ref: "Profile"."profesional_file" - "Files"."_id"
+ref: "Profile"."image_gallery" < "Files"."_id"
+ref: "Profile"."video_gallery" < "Files"."_id"
+
+
+
+
+
+
+

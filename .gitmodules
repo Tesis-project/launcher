@@ -4,3 +4,6 @@
 [submodule "auth-ms"]
 	path = auth-ms
 	url = https://github.com/Tesis-project/auth-ms.git
+[submodule "user-ms"]
+	path = user-ms
+	url = https://github.com/Tesis-project/user-ms.git
