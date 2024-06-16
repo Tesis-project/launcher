@@ -60,6 +60,26 @@ services:
     networks:
       - backend-network
 
+  user-ms:
+    build:
+      context: ./user-ms
+      args:
+        - DB_URL=${DB_URL}
+    restart: always
+    depends_on:
+      - nats-server
+      - db
+      - client-gateway
+    volumes:
+      - ./user-ms/src:/usr/src/app/src
+    environment:
+      - PORT=3001
+      - NODE_ENV=${NODE_ENV}
+      - NATS_SERVERS=nats://nats-server:4222
+      - DB_URL=${DB_URL}
+    networks:
+      - backend-network
+
 networks:
   backend-network:
     driver: bridge

@@ -19,6 +19,13 @@ export enum AuthStatus_Enum {
     INACTIVE = "INACTIVE",
 }
 
+export enum Gender_Enum {
+    MALE = "MALE",
+    FEMALE = "FEMALE",
+    NONE = "NONE",
+}
+
+
 interface Auth_I extends SchemaKey_I {
 
     email: string;
@@ -36,7 +43,7 @@ interface Auth_I extends SchemaKey_I {
 export interface User_I extends SchemaKey_I{
     name: string;
     last_name: string;
-    gender?: string;
+    gender?: Gender_Enum;
     phone?: string;
     direction?: {
         adress?: string;

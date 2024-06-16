@@ -34,7 +34,6 @@ Enum AuthStatus_Enum {
   profile varchar
   hiring_data varchar
   updated_at timestamp
-
 }
 
 
