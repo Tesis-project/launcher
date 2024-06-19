@@ -7,3 +7,5 @@ database
 .vscode
 
 pruebas.*
+
+node_modules
