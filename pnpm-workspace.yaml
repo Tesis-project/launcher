@@ -2,3 +2,4 @@ packages:
   - 'client-gateway'
   - 'auth-ms'
   - 'user-ms'
+  - 'profile-ms'

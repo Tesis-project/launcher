@@ -49,8 +49,3 @@ Ejecutar
 ```
 docker compose -f docker-compose.prod.yml build
 ```
-
-
- AggregateError:
-at internalConnectMultiple (node:net:1116:18)
-at afterConnectMultiple (node:net:1683:7)
