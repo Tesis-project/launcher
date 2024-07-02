@@ -7,3 +7,6 @@
 [submodule "user-ms"]
 	path = user-ms
 	url = https://github.com/Tesis-project/user-ms.git
+[submodule "profile-ms"]
+	path = profile-ms
+	url = https://github.com/Tesis-project/profile-ms.git
