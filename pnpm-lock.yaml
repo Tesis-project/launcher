@@ -57,8 +57,8 @@ importers:
         specifier: ^9.0.0
         version: 9.4.3(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3)
       '@tesis-project/dev-globals':
-        specifier: ^1.0.707
-        version: 1.0.707(@formkit/tempo@0.1.1)(@nestjs/mapped-types@2.0.5(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14))(class-transformer@0.5.1)(class-validator@0.14.1)
+        specifier: ^1.0.710
+        version: 1.0.710(@formkit/tempo@0.1.1)(@nestjs/mapped-types@2.0.5(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14))(class-transformer@0.5.1)(class-validator@0.14.1)
       bcrypt:
         specifier: ^5.1.1
         version: 5.1.1(encoding@0.1.13)
@@ -184,8 +184,8 @@ importers:
         specifier: ^9.0.0
         version: 9.4.3(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3)
       '@tesis-project/dev-globals':
-        specifier: ^1.0.707
-        version: 1.0.707(@formkit/tempo@0.1.1)(@nestjs/mapped-types@2.0.5(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14))(class-transformer@0.5.1)(class-validator@0.14.1)
+        specifier: ^1.0.710
+        version: 1.0.710(@formkit/tempo@0.1.1)(@nestjs/mapped-types@2.0.5(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14))(class-transformer@0.5.1)(class-validator@0.14.1)
       class-transformer:
         specifier: ^0.5.1
         version: 0.5.1
@@ -210,6 +210,9 @@ importers:
       rxjs:
         specifier: ^7.2.0
         version: 7.8.1
+      uuid:
+        specifier: ^10.0.0
+        version: 10.0.0
     devDependencies:
       '@nestjs/cli':
         specifier: ^9.0.0
@@ -307,6 +310,9 @@ importers:
       '@nestjs/platform-express':
         specifier: ^9.0.0
         version: 9.4.3(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3)
+      '@tesis-project/dev-globals':
+        specifier: ^1.0.710
+        version: 1.0.710(@formkit/tempo@0.1.1)(@nestjs/mapped-types@2.0.5(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14))(class-transformer@0.5.1)(class-validator@0.14.1)
       class-transformer:
         specifier: ^0.5.1
         version: 0.5.1
@@ -328,6 +334,9 @@ importers:
       rxjs:
         specifier: ^7.2.0
         version: 7.8.1
+      uuid:
+        specifier: ^10.0.0
+        version: 10.0.0
     devDependencies:
       '@nestjs/cli':
         specifier: ^9.0.0
@@ -338,9 +347,6 @@ importers:
       '@nestjs/testing':
         specifier: ^9.0.0
         version: 9.4.3(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/microservices@10.3.9)(@nestjs/platform-express@9.4.3)(encoding@0.1.13)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/microservices@10.3.9(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3)(nats@2.26.0)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3))
-      '@tesis-project/dev-globals':
-        specifier: ^1.0.707
-        version: 1.0.707(@formkit/tempo@0.1.1)(@nestjs/mapped-types@2.0.5(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14))(class-transformer@0.5.1)(class-validator@0.14.1)
       '@types/express':
         specifier: ^4.17.13
         version: 4.17.21
@@ -428,6 +434,9 @@ importers:
       '@nestjs/platform-express':
         specifier: ^9.0.0
         version: 9.4.3(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3)
+      '@tesis-project/dev-globals':
+        specifier: ^1.0.710
+        version: 1.0.710(@formkit/tempo@0.1.1)(@nestjs/mapped-types@2.0.5(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14))(class-transformer@0.5.1)(class-validator@0.14.1)
       class-transformer:
         specifier: ^0.5.1
         version: 0.5.1
@@ -449,6 +458,9 @@ importers:
       rxjs:
         specifier: ^7.2.0
         version: 7.8.1
+      uuid:
+        specifier: ^10.0.0
+        version: 10.0.0
     devDependencies:
       '@nestjs/cli':
         specifier: ^9.0.0
@@ -459,9 +471,6 @@ importers:
       '@nestjs/testing':
         specifier: ^9.0.0
         version: 9.4.3(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/microservices@10.3.9)(@nestjs/platform-express@9.4.3)(encoding@0.1.13)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/microservices@10.3.9(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3)(nats@2.26.0)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3))
-      '@tesis-project/dev-globals':
-        specifier: ^1.0.707
-        version: 1.0.707(@formkit/tempo@0.1.1)(@nestjs/mapped-types@2.0.5(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14))(class-transformer@0.5.1)(class-validator@0.14.1)
       '@types/express':
         specifier: ^4.17.13
         version: 4.17.21
@@ -550,7 +559,7 @@ packages:
     engines: {node: '>=6.9.0'}
 
   '@babel/core@7.24.7':
-    resolution: {integrity: sha512-nykK+LEK86ahTkX/3TgauT0ikKoNCfKHEaZYTUVupJdTLzGNvrblu4u6fa7DhZONAltdf8e662t/abY8idrd/g==}
+    resolution: {integrity: sha512-nykK+LEK86ahTkX/3TgauT0ikKoNCfKHEaZYTUVupJdTLzGNvrblu4u6fa7DhZONAltdf8e662t/abY8idrd/g==, tarball: https://registry.npmjs.org/@babel/core/-/core-7.24.7.tgz}
     engines: {node: '>=6.9.0'}
 
   '@babel/generator@7.24.7':
@@ -1096,8 +1105,8 @@ packages:
   '@sinonjs/fake-timers@10.3.0':
     resolution: {integrity: sha512-V4BG07kuYSUkTCSBHG8G8TNhM+F19jXFWnQtzj+we8DrkpSBCee9Z3Ms8yiGer/dlmhe35/Xdgyo3/0rQKg7YA==}
 
-  '@tesis-project/dev-globals@1.0.707':
-    resolution: {integrity: sha512-1nsVAWL8oMvGCNeFSzxzrTq2orMS1grXlpMtX91iOQIvjURxmwwPHpr3uBMeKUAzH3ufvFKl0MFr+FM9nfB/eA==, tarball: https://npm.pkg.github.com/download/@tesis-project/dev-globals/1.0.707/25995d16c1d68aba8cd5980fd9ea0228d6f0b112}
+  '@tesis-project/dev-globals@1.0.710':
+    resolution: {integrity: sha512-zYGhpku3ocD2hpbFfWTpMNrNlHe4Q2506zpDo+H7yl8D0Ze262LezgPSnpvwkyzyvI/J5SduZXoQhdHgN5jybA==, tarball: https://npm.pkg.github.com/download/@tesis-project/dev-globals/1.0.710/8828d4e95c699a4be94bf4c01ecaf45c92e9893b}
     peerDependencies:
       '@formkit/tempo': ^0.1.1
       '@nestjs/mapped-types': ^2.0.5
@@ -4713,7 +4722,7 @@ snapshots:
     dependencies:
       '@sinonjs/commons': 3.0.1
 
-  '@tesis-project/dev-globals@1.0.707(@formkit/tempo@0.1.1)(@nestjs/mapped-types@2.0.5(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14))(class-transformer@0.5.1)(class-validator@0.14.1)':
+  '@tesis-project/dev-globals@1.0.710(@formkit/tempo@0.1.1)(@nestjs/mapped-types@2.0.5(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14))(class-transformer@0.5.1)(class-validator@0.14.1)':
     dependencies:
       '@formkit/tempo': 0.1.1
       '@nestjs/mapped-types': 2.0.5(@nestjs/common@9.4.3(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.1.14)
