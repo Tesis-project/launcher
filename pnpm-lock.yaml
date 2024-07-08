@@ -57,8 +57,8 @@ importers:
         specifier: ^10.3.10
         version: 10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10)
       '@tesis-project/dev-globals':
-        specifier: ^1.0.719
-        version: 1.0.719(@formkit/tempo@0.1.1)(@mikro-orm/core@6.2.9)(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(class-transformer@0.5.1)(class-validator@0.14.1)
+        specifier: ^1.0.722
+        version: 1.0.722(@formkit/tempo@0.1.1)(@mikro-orm/core@6.2.9)(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(class-transformer@0.5.1)(class-validator@0.14.1)
       bcrypt:
         specifier: ^5.1.1
         version: 5.1.1(encoding@0.1.13)
@@ -184,8 +184,8 @@ importers:
         specifier: ^10.3.10
         version: 10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10)
       '@tesis-project/dev-globals':
-        specifier: ^1.0.719
-        version: 1.0.719(@formkit/tempo@0.1.1)(@mikro-orm/core@6.2.9)(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(class-transformer@0.5.1)(class-validator@0.14.1)
+        specifier: ^1.0.722
+        version: 1.0.722(@formkit/tempo@0.1.1)(@mikro-orm/core@6.2.9)(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(class-transformer@0.5.1)(class-validator@0.14.1)
       class-transformer:
         specifier: ^0.5.1
         version: 0.5.1
@@ -311,8 +311,8 @@ importers:
         specifier: ^10.3.10
         version: 10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10)
       '@tesis-project/dev-globals':
-        specifier: ^1.0.719
-        version: 1.0.719(@formkit/tempo@0.1.1)(@mikro-orm/core@6.2.9)(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(class-transformer@0.5.1)(class-validator@0.14.1)
+        specifier: ^1.0.722
+        version: 1.0.722(@formkit/tempo@0.1.1)(@mikro-orm/core@6.2.9)(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(class-transformer@0.5.1)(class-validator@0.14.1)
       class-transformer:
         specifier: ^0.5.1
         version: 0.5.1
@@ -435,8 +435,8 @@ importers:
         specifier: ^10.3.10
         version: 10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10)
       '@tesis-project/dev-globals':
-        specifier: ^1.0.719
-        version: 1.0.719(@formkit/tempo@0.1.1)(@mikro-orm/core@6.2.9)(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(class-transformer@0.5.1)(class-validator@0.14.1)
+        specifier: ^1.0.722
+        version: 1.0.722(@formkit/tempo@0.1.1)(@mikro-orm/core@6.2.9)(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(class-transformer@0.5.1)(class-validator@0.14.1)
       class-transformer:
         specifier: ^0.5.1
         version: 0.5.1
@@ -1240,8 +1240,8 @@ packages:
     resolution: {integrity: sha512-4BAffykYOgO+5nzBWYwE3W90sBgLJoUPRWWcL8wlyiM8IB8ipJz3UMJ9KXQd1RKQXpKp8Tutn80HZtWsu2u76w==}
     engines: {node: '>=10'}
 
-  '@tesis-project/dev-globals@1.0.719':
-    resolution: {integrity: sha512-CukqQENAkjkFlO1Fpamr2yxIb7IjRNsOnlVqHYS0tgw2eiP5AzP8ArkyN8RazGiJVtw4yXh5Vulz6x8zP0CEvw==, tarball: https://npm.pkg.github.com/download/@tesis-project/dev-globals/1.0.719/202af47ffadf3bbadd1bfc0ecba407e6ed770d15}
+  '@tesis-project/dev-globals@1.0.722':
+    resolution: {integrity: sha512-04iIXgTugyhi0BIuyAgX1fibMSNXvp44tN8+G6ut49mkxbdjahbzD+Vy4owRPG4SSlNhWiDOPNdv60X0k1EO8g==, tarball: https://npm.pkg.github.com/download/@tesis-project/dev-globals/1.0.722/31b7ae1d476b71f739a0fa94771edf1848b37069}
     peerDependencies:
       '@formkit/tempo': ^0.1.1
       '@mikro-orm/core': ^6.2.9
@@ -5228,7 +5228,7 @@ snapshots:
       defer-to-connect: 2.0.1
     optional: true
 
-  '@tesis-project/dev-globals@1.0.719(@formkit/tempo@0.1.1)(@mikro-orm/core@6.2.9)(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(class-transformer@0.5.1)(class-validator@0.14.1)':
+  '@tesis-project/dev-globals@1.0.722(@formkit/tempo@0.1.1)(@mikro-orm/core@6.2.9)(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(class-transformer@0.5.1)(class-validator@0.14.1)':
     dependencies:
       '@formkit/tempo': 0.1.1
       '@mikro-orm/core': 6.2.9

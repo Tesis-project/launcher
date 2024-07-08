@@ -46,7 +46,7 @@ export interface User_I extends SchemaKey_I{
     gender?: Gender_Enum;
     phone?: string;
     direction?: {
-        adress?: string;
+        address?: string;
         city?: string;
         state?: string;
     }
