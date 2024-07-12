@@ -10,3 +10,6 @@
 [submodule "profile-ms"]
 	path = profile-ms
 	url = https://github.com/Tesis-project/profile-ms.git
+[submodule "media-ms"]
+	path = media-ms
+	url = https://github.com/Tesis-project/media-ms.git
