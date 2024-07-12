@@ -3,3 +3,4 @@ packages:
   - 'auth-ms'
   - 'user-ms'
   - 'profile-ms'
+  - 'media-ms'
