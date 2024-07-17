@@ -1,5 +1,7 @@
+
 version: '3'
 services:
+
   nats-server:
     image: nats:latest
     restart: always
@@ -9,6 +11,9 @@ services:
       - 6222:6222
     networks:
       - backend-network
+    command: ["-c", "/etc/nats-server.conf"]
+    volumes:
+      - ./nats-server.conf:/etc/nats-server.conf
 
   db:
     container_name: db
