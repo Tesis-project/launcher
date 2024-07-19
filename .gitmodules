@@ -13,3 +13,6 @@
 [submodule "media-ms"]
 	path = media-ms
 	url = https://github.com/Tesis-project/media-ms.git
+[submodule "notifications-ms"]
+	path = notifications-ms
+	url = https://github.com/Tesis-project/notifications-ms.git
