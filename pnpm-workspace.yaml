@@ -4,3 +4,4 @@ packages:
   - 'user-ms'
   - 'profile-ms'
   - 'media-ms'
+  - 'notifications-ms'

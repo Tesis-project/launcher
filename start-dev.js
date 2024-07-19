@@ -7,7 +7,7 @@ concurrently(
         { command: 'pnpm --filter user-ms dev', name: 'user-ms', prefixColor: 'bgGreen.black' },
         { command: 'pnpm --filter profile-ms dev', name: 'profile-ms', prefixColor: 'bgYellow.black' },
         { command: 'pnpm --filter media-ms dev', name: 'media-ms', prefixColor: 'bgMagenta.black' },
-        // { command: 'pnpm --filter notifications-ms dev', name: 'notifications-ms', prefixColor: 'bgBlue.black' },
+        { command: 'pnpm --filter notifications-ms dev', name: 'notifications-ms', prefixColor: 'bgBlue.black' },
     ],
     {
         prefix: 'name',
