@@ -57,8 +57,8 @@ importers:
         specifier: ^10.3.10
         version: 10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10)
       '@tesis-project/dev-globals':
-        specifier: ^1.0.752
-        version: 1.0.752(@formkit/tempo@0.1.1)(@mikro-orm/core@6.3.0)(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(@nestjs/platform-express@10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10))(@types/multer@1.4.11)(class-transformer@0.5.1)(class-validator@0.14.1)(multer@1.4.5-lts.1)
+        specifier: ^1.0.754
+        version: 1.0.754(@formkit/tempo@0.1.1)(@mikro-orm/core@6.3.0)(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(@nestjs/platform-express@10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10))(@types/multer@1.4.11)(class-transformer@0.5.1)(class-validator@0.14.1)(multer@1.4.5-lts.1)
       bcrypt:
         specifier: ^5.1.1
         version: 5.1.1(encoding@0.1.13)
@@ -193,8 +193,8 @@ importers:
         specifier: ^10.3.10
         version: 10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10)
       '@tesis-project/dev-globals':
-        specifier: ^1.0.752
-        version: 1.0.752(@formkit/tempo@0.1.1)(@mikro-orm/core@6.3.0)(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(@nestjs/platform-express@10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10))(@types/multer@1.4.11)(class-transformer@0.5.1)(class-validator@0.14.1)(multer@1.4.5-lts.1)
+        specifier: ^1.0.754
+        version: 1.0.754(@formkit/tempo@0.1.1)(@mikro-orm/core@6.3.0)(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(@nestjs/platform-express@10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10))(@types/multer@1.4.11)(class-transformer@0.5.1)(class-validator@0.14.1)(multer@1.4.5-lts.1)
       backblaze-b2:
         specifier: ^1.7.0
         version: 1.7.0
@@ -384,8 +384,8 @@ importers:
         specifier: ^1.7.0
         version: 1.7.0
       '@tesis-project/dev-globals':
-        specifier: ^1.0.752
-        version: 1.0.752(@formkit/tempo@0.1.1)(@mikro-orm/core@6.3.0)(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(@nestjs/platform-express@10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10))(@types/multer@1.4.11)(class-transformer@0.5.1)(class-validator@0.14.1)(multer@1.4.5-lts.1)
+        specifier: ^1.0.754
+        version: 1.0.754(@formkit/tempo@0.1.1)(@mikro-orm/core@6.3.0)(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(@nestjs/platform-express@10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10))(@types/multer@1.4.11)(class-transformer@0.5.1)(class-validator@0.14.1)(multer@1.4.5-lts.1)
       '@types/backblaze-b2':
         specifier: ^1.5.6
         version: 1.5.6
@@ -483,8 +483,8 @@ importers:
         specifier: ^10.3.10
         version: 10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10)
       '@tesis-project/dev-globals':
-        specifier: ^1.0.752
-        version: 1.0.752(@formkit/tempo@0.1.1)(@mikro-orm/core@6.3.0)(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(@nestjs/platform-express@10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10))(@types/multer@1.4.11)(class-transformer@0.5.1)(class-validator@0.14.1)(multer@1.4.5-lts.1)
+        specifier: ^1.0.754
+        version: 1.0.754(@formkit/tempo@0.1.1)(@mikro-orm/core@6.3.0)(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(@nestjs/platform-express@10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10))(@types/multer@1.4.11)(class-transformer@0.5.1)(class-validator@0.14.1)(multer@1.4.5-lts.1)
       class-transformer:
         specifier: ^0.5.1
         version: 0.5.1
@@ -619,8 +619,8 @@ importers:
         specifier: ^10.3.10
         version: 10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10)
       '@tesis-project/dev-globals':
-        specifier: ^1.0.752
-        version: 1.0.752(@formkit/tempo@0.1.1)(@mikro-orm/core@6.3.0)(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(@nestjs/platform-express@10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10))(@types/multer@1.4.11)(class-transformer@0.5.1)(class-validator@0.14.1)(multer@1.4.5-lts.1)
+        specifier: ^1.0.754
+        version: 1.0.754(@formkit/tempo@0.1.1)(@mikro-orm/core@6.3.0)(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(@nestjs/platform-express@10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10))(@types/multer@1.4.11)(class-transformer@0.5.1)(class-validator@0.14.1)(multer@1.4.5-lts.1)
       class-transformer:
         specifier: ^0.5.1
         version: 0.5.1
@@ -755,8 +755,8 @@ importers:
         specifier: ^10.3.10
         version: 10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10)
       '@tesis-project/dev-globals':
-        specifier: ^1.0.752
-        version: 1.0.752(@formkit/tempo@0.1.1)(@mikro-orm/core@6.3.0)(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(@nestjs/platform-express@10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10))(@types/multer@1.4.11)(class-transformer@0.5.1)(class-validator@0.14.1)(multer@1.4.5-lts.1)
+        specifier: ^1.0.754
+        version: 1.0.754(@formkit/tempo@0.1.1)(@mikro-orm/core@6.3.0)(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(@nestjs/platform-express@10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10))(@types/multer@1.4.11)(class-transformer@0.5.1)(class-validator@0.14.1)(multer@1.4.5-lts.1)
       class-transformer:
         specifier: ^0.5.1
         version: 0.5.1
@@ -1561,11 +1561,11 @@ packages:
     resolution: {integrity: sha512-4BAffykYOgO+5nzBWYwE3W90sBgLJoUPRWWcL8wlyiM8IB8ipJz3UMJ9KXQd1RKQXpKp8Tutn80HZtWsu2u76w==}
     engines: {node: '>=10'}
 
-  '@tesis-project/dev-globals@1.0.752':
-    resolution: {integrity: sha512-9sShYsLg7gZ8vCMMHCkDtmSnjpGWgsP8zLKMcRB+1uhOJNxziOUGCVFT8m0w0GAvIuRMs6o8fVOD4JNRcOEzBQ==, tarball: https://npm.pkg.github.com/download/@tesis-project/dev-globals/1.0.752/78cd88a59f1d0d3c39b7bf89197a7548c4dd9b11}
+  '@tesis-project/dev-globals@1.0.754':
+    resolution: {integrity: sha512-P61Tqc0BC5zP/YMrkeNkeohRYw+iP6XMqEdvhTbwOM0VKT87kF44vj7bQoZbQLQ2rhEH6YMwpa1Z8t+w5g3rQQ==, tarball: https://npm.pkg.github.com/download/@tesis-project/dev-globals/1.0.754/1754f1e440cc70685492a36e3027223c2cb7ebf8}
     peerDependencies:
       '@formkit/tempo': ^0.1.2
-      '@mikro-orm/core': ^6.2.9
+      '@mikro-orm/core': ^6.3.0
       '@nestjs/common': ^10.3.10
       '@nestjs/mapped-types': ^2.0.5
       '@nestjs/platform-express': ^10.3.10
@@ -5518,7 +5518,7 @@ snapshots:
     dependencies:
       defer-to-connect: 2.0.1
 
-  '@tesis-project/dev-globals@1.0.752(@formkit/tempo@0.1.1)(@mikro-orm/core@6.3.0)(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(@nestjs/platform-express@10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10))(@types/multer@1.4.11)(class-transformer@0.5.1)(class-validator@0.14.1)(multer@1.4.5-lts.1)':
+  '@tesis-project/dev-globals@1.0.754(@formkit/tempo@0.1.1)(@mikro-orm/core@6.3.0)(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/mapped-types@2.0.5(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2))(@nestjs/platform-express@10.3.10(@nestjs/common@10.3.10(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10))(@types/multer@1.4.11)(class-transformer@0.5.1)(class-validator@0.14.1)(multer@1.4.5-lts.1)':
     dependencies:
       '@formkit/tempo': 0.1.1
       '@mikro-orm/core': 6.3.0
