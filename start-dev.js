@@ -8,6 +8,7 @@ concurrently(
         { command: 'pnpm --filter profile-ms dev', name: 'profile-ms', prefixColor: 'bgYellow.black' },
         { command: 'pnpm --filter media-ms dev', name: 'media-ms', prefixColor: 'bgMagenta.black' },
         { command: 'pnpm --filter notifications-ms dev', name: 'notifications-ms', prefixColor: 'bgBlue.black' },
+        { command: 'pnpm --filter business-ms dev', name: 'business-ms', prefixColor: 'bgWhite.black' },
     ],
     {
         prefix: 'name',
@@ -16,5 +17,6 @@ concurrently(
     }
 ).result.then(
     () => console.log('Done!'),
-    () => console.log('Failed!')
+    (e) => console.log('Failed!', e)
+
 );
