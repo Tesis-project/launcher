@@ -17,6 +17,5 @@ concurrently(
     }
 ).result.then(
     () => console.log('Done!'),
-    (e) => console.log('Failed!', e)
-
+    () => console.log('Failed!')
 );
